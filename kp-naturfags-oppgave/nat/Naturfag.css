@@ -1,0 +1,57 @@
+body {
+    margin: 0px;
+  }
+.header {
+
+    display: flex;
+  padding: 25px;
+     text-align: center;
+     background-color: grey;
+     font-size: 2em;
+     text-align: center;
+   }
+   
+   .horizontal-line {
+    display: flex;
+    height: 2px;
+    width: 92,5rem;
+    background-color: black;
+    text-align: center;
+   }
+
+.innholdsomerade{
+  display: flex;
+    text-align: center;
+    background-color: white;
+    font-size: 2rem;
+    display: block;
+    margin-left: auto;
+    justify-content: right;
+    align-items: left;
+}
+
+.horizontal-line {
+  display: flex;
+  height: 2px;
+  width: 92,5rem;
+  background-color: black;
+  text-align: center;
+}
+
+
+.Footer {
+  display: flex;
+  padding: 200px;
+  text-align: left;
+  background-color: brown;
+  font-size: 3rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 600px) {
+  .horizontal-line {
+font-size: 28rem;
+  }
+}
